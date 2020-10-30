@@ -131,6 +131,9 @@ def rituxan_calculate():
 
 	solution = max(solution, 0)
 
+	if solution < 100 or solution >= 1000:
+		warning_box("Dosage outside of normal range! Ensure your values are correct!")
+
 	rituxan_solution_variable.set("{}mg".format(round(solution, 2)))
 
 def rituxan_clear():
