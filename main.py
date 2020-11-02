@@ -151,7 +151,7 @@ rituxan_clear_button.grid(row = 1, column = 2, padx = 10, pady = 10, sticky="NES
 
 ### RUN THE WINDOW ###
 
-window.title("MediCalc")
+window.title("NurseAlert")
 window.geometry("560x260")
 window.resizable(False, False)
 window.mainloop()
